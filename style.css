@@ -6,7 +6,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Figtree;
+    font-family: Figtree, sans-serif;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #F4D04E;
 }
 
@@ -45,13 +45,15 @@ figure img {
     display: inline-flex;
     margin: .75em 0 .9em;
     padding: .5em 1em;
-    background-color: #F4D04E;
+    background-color: #111111;
+    color: #ffffff;
     border-radius: .25em;
     font-size: 1rem;
     font-weight: 800;
 }
 
-.content :nth-child(2){
+.content time{
+    display: block;
     font-size: .85rem;
     margin-bottom: 1em;
     color: #111111;
@@ -85,5 +87,6 @@ figure img {
 }
 
 .author img {
-    width: 2em;
+    width: 2.25em;
+    border-radius: 100%;
 }
