@@ -52,6 +52,12 @@ figure img {
     font-weight: 800;
 }
 
+.tag:hover {
+    color:#111111;
+    background-color: #F4D04E;
+    transition: all .15s ease-in-out;
+}
+
 .content time{
     display: block;
     font-size: .85rem;
@@ -62,6 +68,12 @@ figure img {
 .content h1 {
     margin-bottom: 1rem;
     font-weight: 800;
+}
+
+.content h1:hover {
+    color:#F4D04E;
+    transition: all .15s ease-in-out;
+    cursor: pointer;
 }
 
 .content p {
